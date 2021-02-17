@@ -13,8 +13,4 @@ end
 
 def find_the_cheese(snacks)
   snacks.collect { |x| x == "cheddar" || "gouda" || "camembert" }
-
-
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.any?("cheddar" || "gouda" || "camembert")
 end
