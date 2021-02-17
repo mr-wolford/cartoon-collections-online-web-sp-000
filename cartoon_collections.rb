@@ -1,4 +1,3 @@
-require 'pry'
 
 def roll_call_dwarves(names)
   names.each_with_index { |dwarf, inx| puts "#{inx + 1}. #{dwarf}" }
