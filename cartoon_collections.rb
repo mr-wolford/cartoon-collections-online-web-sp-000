@@ -8,7 +8,7 @@ def summon_captain_planet(elements)
   elements.collect { |element| element.capitalize << "!"}
 end
 
-def long_planeteer_calls(calls, x)
+def long_planeteer_calls(calls)
   calls.include?{|x| x.length > 4}
 end
 
